@@ -161,7 +161,3 @@ This is a way if you need this
   - `index.ts` - allows to put reusable behavior such as custom commands or global overrides that you want applied and available to all of your spec files.
 - `cypress.env.example.json` - this is an example of how could be `cypress.env.json` file. We don't share credentials through git because of privacy policy. Therefore create `cypress.env.json` in root and add all what you need bypass.
 - `cypress.json` - the first time you open Cypress Test Runner, it creates the `cypress.json` configuration file. This JSON file is used to store any configuration values you supply.
-# template
-# template
-# template
-# template
