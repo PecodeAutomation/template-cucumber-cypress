@@ -1,0 +1,21 @@
+{
+  "video": true,
+  "videoUploadOnPasses": false,
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 10000,
+  "pageLoadTimeout": 90000,
+  "watchForFileChanges": false,
+  "pluginsFile": "cypress/plugins/index.ts",
+  "fixturesFolder": "cypress/fixtures",
+  "screenshotsFolder": "cypress/screenshots",
+  "videosFolder": "cypress/videos",
+  "reporter": "cypress-multi-reporters",
+  "testFiles": "**/*.{feature,features}",
+  "integrationFolder": "cypress/features",
+  "supportFile": "cypress/support/index.ts",
+  "reporterOptions": {
+    "configFile": "reporter-config.json"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "noEmit": false,
+    "target": "ES2021",
+    "strict": true,
+    "removeComments": true,
+    "lib": ["es2019", "DOM"],
+    "types": ["cypress", "node"],
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "allowJs": true,
+    "checkJs": true,
+    "declaration": false,
+    "skipLibCheck": true,
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["**/*.*"],
+  "exclude": ["dist", "node_modules"]
+}
